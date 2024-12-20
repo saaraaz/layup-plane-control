@@ -1,0 +1,26 @@
+.controllerContainer {
+  border: 2px solid darkblue;
+  background-color: lightblue;
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  font-size: large;
+}
+
+input[type="number"] {
+  font-size: large;
+}
+
+.resetIcon {
+  font-size: 2rem;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.resetIcon:hover {
+  color: red;
+}
